@@ -2,7 +2,7 @@ import "./App.css";
 import styled, { ThemeProvider } from "styled-components";
 import { lightTheme } from "./utils/Themes";
 import Navbar from "./components/Navbar";
-import Hero from "./components/HeroSection";
+import  Experience from "./components/Experience";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
 import { BrowserRouter as Router } from "react-router-dom";
@@ -32,12 +32,14 @@ function App() {
   return (
     <ThemeProvider theme={lightTheme}>
       <Router >
-        <Navbar />
+        <Navbar/>
         <Body>
           <HeroSection />
           <Wrapper>
             <Skills />
+            <Experience/>
             <Education />
+            
           </Wrapper>
         </Body>
       </Router>

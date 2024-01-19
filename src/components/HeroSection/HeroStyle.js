@@ -6,6 +6,8 @@ export const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
   position: relative;
+  overflow:hidden;
+
   padding: 80px 30px;
   @media (max-width: 960px) {
     padding: 66px 16px;
@@ -29,7 +31,7 @@ export const HeroBg = styled.div`
   width: 100%;
   height: 100%;
   max-width: 1360px;
-  overflow: hidden;
+  overflow: hidden !important;
   padding: 0 30px;
   top: 50%;
   left: 50%;
@@ -43,7 +45,8 @@ export const HeroBg = styled.div`
 `;
 
 export const HeroInnerContainer = styled.div`
-  position: relative;
+overflow:hidden;  
+position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -57,6 +60,7 @@ export const HeroInnerContainer = styled.div`
 export const HeroLeftContainer = styled.div`
   width: 100%;
   order: 1;
+  overflow:hidden;
   @media (max-width: 960px) {
     order: 2;
     margin-bottom: 30px;
@@ -114,6 +118,7 @@ export const Img = styled.img`
 
 export const Title = styled.div`
   font-weight: 700;
+  overflow:hidden;
   font-size: 50px;
   color: ${({ theme }) => theme.text_primary};
   line-height: 68px;
