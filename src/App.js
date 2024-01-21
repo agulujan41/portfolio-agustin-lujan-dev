@@ -10,7 +10,6 @@ import HeroSection from "./components/HeroSection";
 const Body = styled.body`
   background-color: ${({ theme }) => theme.bg};
   width: 100%;
-  height: 100vh;
   overflow-x: hidden;
 `;
 const Wrapper = styled.div`
