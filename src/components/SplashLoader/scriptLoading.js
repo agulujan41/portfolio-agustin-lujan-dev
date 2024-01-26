@@ -8,7 +8,7 @@ document.addEventListener('readystatechange', function(e) {
     else{
         let loader = document.getElementById("loader");
         setTimeout(() => {
-
+          
           loader.classList.add("close");
         }, 4000);
     }
