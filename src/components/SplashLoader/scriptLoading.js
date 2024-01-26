@@ -9,7 +9,7 @@ document.addEventListener('readystatechange', function(e) {
         let loader = document.getElementById("loader");
         setTimeout(() => {
 
-          loader.classList.add("hidden");
+          loader.classList.add("close");
         }, 4000);
     }
    });

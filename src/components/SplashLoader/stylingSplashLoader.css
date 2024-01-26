@@ -11,10 +11,11 @@
     background-color: white;
 }
 
-.hidden {
+.close {
     opacity: 0;
     z-index: none;
-    
+    transition: 1.5s;
+    display: none;
 }
 
 
