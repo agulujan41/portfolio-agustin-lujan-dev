@@ -15,7 +15,10 @@ const SplashLoader = () => {
                 }
             }
         />
+        <div class="circle border">
+        </div>
     </div>
+    
   )
 }
 

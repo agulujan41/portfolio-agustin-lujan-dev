@@ -9,6 +9,6 @@ document.addEventListener('readystatechange', function(e) {
         let loader = document.getElementById("loader");
         setTimeout(() => {
           loader.classList.add("hidden");
-        }, 3000);
+        }, 4000);
     }
    });
