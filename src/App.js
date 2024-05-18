@@ -32,7 +32,7 @@ function App() {
   console.log(openModal)
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
-      <SplashLoader />
+     
       <Router >
         <Navbar />
         <Body>
