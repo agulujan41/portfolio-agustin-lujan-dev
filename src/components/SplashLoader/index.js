@@ -4,7 +4,7 @@ import './stylingSplashLoader.css'
 import "./scriptLoading"
 const SplashLoader = () => {
   return (
-    <div className='show' id="loader">
+    <div className='hide' id="loader">
 
         <img src={logo} className="App-logo" alt="logo"  loading="lazy" 
             style={
