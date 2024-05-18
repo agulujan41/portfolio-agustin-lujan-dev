@@ -3,8 +3,11 @@ if(document.readyState === "complete") {
   // Fully loaded!
   console.log("loaded");
   let loader = document.getElementById("loader");
-  loader.classList.remove("show");
+  setTimeout(()=>{
+    loader.classList.remove("show");
   loader.classList.add("close");
+  },3000);
+  
 }
 else if(document.readyState === "interactive") {
   // DOM ready! Images, frames, and other subresources are still downloading.
@@ -21,8 +24,10 @@ else {
       // Fully loaded!
       console.log("loaded");
       let loader = document.getElementById("loader");
-      loader.classList.remove("show");
+      setTimeout(()=>{
+        loader.classList.remove("show");
       loader.classList.add("close");
+      },3000);
     });
     
 }
