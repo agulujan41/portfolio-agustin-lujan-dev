@@ -40,5 +40,7 @@ else {
       setTimeout(() => {
         loader.classList.add("close");
       }, 3000);
+      loader.classList.add("close");
     });
+    
 }
