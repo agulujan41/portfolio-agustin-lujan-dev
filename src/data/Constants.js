@@ -252,4 +252,16 @@ export const projects = [
     github: "https://github.com/agulujan41/RPALKiroMaquinarias-.git",
     webapp: "https://github.com/agulujan41/RPALKiroMaquinarias-.git",
   },
+  {
+    id: 2,
+    title: "BikeSupplier41",
+    date: "Jun 2022 - Sep 2022",
+    description:
+      "Full-stack development for a company in the City of Salta with a CRM module. Users managment. Product catalog.",
+    image: "bikesupplier41.png",
+    tags: [ "Python", "Django","Docker"],
+    category: "web app",
+    github: "https://github.com/agulujan41/RPALBikeSupplier41.git",
+    webapp: "https://github.com/agulujan41/RPALBikeSupplier41.git",
+  },
 ];
