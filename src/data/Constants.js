@@ -141,11 +141,31 @@ export const skills = [
 
 export const experiences = [
   {
+    id: 3,
+    img: "compara.png",
+    role: "Python Developer",
+    company: "Compara en Casa",
+    date: "Jun 2024 - Present",
+    desc: "Python Full Stack Developer at Compara en Casa. Comparaencasa is a digital platform that allows users to compare insurance from various providers in Argentina. Through this service, users can evaluate and contrast the coverages offered by the leading insurance companies in the country within seconds. This facilitates informed decision-making and helps find options that fit individual needs and budgets. By using Comparaencasa, it is possible to get online quotes and choose the best alternative to protect your vehicle.",
+    skills: [
+      "Docker",
+      "Nginx",
+      "JavaScript",
+      "Node JS",
+      "React Js",
+      "Django REST Framework",
+      "Jira",
+      "Scrum",
+
+    ],
+    doc: "compara2.png",
+  },
+  {
     id: 0,
     img: "https://backoffice.algoritmika.org/auth/v3/img/logo.d1092e37.svg",
     role: "Full Stack Developer",
     company: "Algorithmics Programming",
-    date: "Aug 2023 - Present",
+    date: "Aug 2023 - May 2024",
     desc: "As an educator at a prestigious international programming school, I have the privilege of sharing my strong academic knowledge in programming and mathematics with a global community. Our institution, present in more than 90 countries, takes pride in having 515 partners and having graduated over 1,100,000 students. Our mission is focused on multi-platform development, working with various programming languages to train the next generation of highly skilled technology professionals.",
     skills: [
       "Docker",
@@ -208,6 +228,25 @@ export const education = [
 
 export const projects = [
   {
+    id: 9,
+    title: "AeroFly",
+    date: "Mar 2024 - Jun 2024",
+    description:
+      "Aerofly is an innovative digital platform that transforms the way you plan and book your trips. We specialize in offering a wide range of aviation-related services, from flights to unique experiences in various destinations around the world. With Aerofly, you can compare and book travel options quickly, securely, and efficiently, ensuring that every detail of your journey is taken care of.",
+    image: "aerofly.png",
+    tags: [
+      "Docker",
+      "Eslint",
+      "PostgreSQL",
+      "React Js",
+      "Node Js",
+    ],
+    category: "web app",
+    github: "https://github.com/agulujan41/RPALAylluTurismoGestion.git",
+    webapp: "https://github.com/agulujan41/RPALAylluTurismoGestion.git",
+  },
+  {
+
     id: 9,
     title: "AylluTurismoGestion",
     date: "Apr 2024 - May 2024",

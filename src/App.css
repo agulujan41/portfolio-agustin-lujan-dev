@@ -20,4 +20,16 @@ body{
   overflow-y: auto;
 }
 
-
+body::-webkit-scrollbar {
+  width: 0.7em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(4, 211, 4);
+  outline: 1px solid slatgegrey;
+  border-radius: 10px;
+}
